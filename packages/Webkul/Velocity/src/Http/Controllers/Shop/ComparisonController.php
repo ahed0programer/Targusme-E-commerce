@@ -51,7 +51,7 @@ class ComparisonController extends Controller
         }
 
         if (! request()->get('data')) {
-            return view($this->_config['view']);;
+            return view($this->_config['view']);
         }
 
         $productCollection = [];
